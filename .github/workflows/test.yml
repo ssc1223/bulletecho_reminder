@@ -3,7 +3,7 @@ name: Daily Discord Notification2
 on:
   schedule:
     - cron: '55 22 * * *'  # 台灣時間 06:55 AM（UTC 22:55）
-    - cron: '00 2 * * *'   # 台灣時間 10:55 AM（UTC 02:55）
+    - cron: '4 2 * * *'   # 台灣時間 10:55 AM（UTC 02:55）
     - cron: '55 6 * * *'   # 台灣時間 02:55 PM（UTC 06:55）
     - cron: '55 10 * * *'  # 台灣時間 06:55 PM（UTC 10:55）
     - cron: '55 14 * * *'  # 台灣時間 10:55 PM（UTC 14:55）
