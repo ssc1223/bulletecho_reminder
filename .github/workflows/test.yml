@@ -8,7 +8,8 @@ on:
     - cron: '55 10 * * *'  # 台灣時間 06:55 PM（UTC 10:55）
     - cron: '55 14 * * *'  # 台灣時間 10:55 PM（UTC 14:55）
     - cron: '55 18 * * *'  # 台灣時間 02:55 AM（UTC 18:55）
-    - cron: '21 18 * * *'
+    - cron: '28 18 * * *'
+    - cron: '28 10 * * *'
 jobs:
   send_message:
     runs-on: ubuntu-latest
