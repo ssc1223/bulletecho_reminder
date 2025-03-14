@@ -2,12 +2,12 @@ name: Daily Discord Notification
 
 on:
   schedule:
-    - cron: '50 22 * * *'  # 台灣時間 06:55 AM（UTC 22:55）
-    - cron: '50 2 * * *'   # 台灣時間 10:55 AM（UTC 02:55）
-    - cron: '50 6 * * *'   # 台灣時間 02:55 PM（UTC 06:55）
-    - cron: '55 10 * * *'  # 台灣時間 06:55 PM（UTC 10:55）
-    - cron: '20 15 * * *'  # 台灣時間 10:55 PM（UTC 14:55）
-    - cron: '50 18 * * *'  # 台灣時間 02:55 AM（UTC 18:55）
+    - cron: '50 22 * * *'  # 台灣時間 06:50 AM（UTC 22:50）
+    - cron: '50 2 * * *'   # 台灣時間 10:50 AM（UTC 02:50）
+    - cron: '50 6 * * *'   # 台灣時間 02:50 PM（UTC 06:50）
+    - cron: '55 10 * * *'  # 台灣時間 06:50 PM（UTC 10:50）
+    - cron: '20 15 * * *'  # 台灣時間 11:20 PM（UTC 15:20）
+    - cron: '50 18 * * *'  # 台灣時間 02:50 AM（UTC 18:50）
   workflow_dispatch:  # 允許手動執行
 jobs:
   send_message:
